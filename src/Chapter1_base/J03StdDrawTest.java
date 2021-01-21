@@ -16,15 +16,15 @@ public class J03StdDrawTest {
     public static void main(String[] args) {
         // 函数值
         int N = 100;
-//        StdDraw.setPenColor(StdDraw.BLUE); //设置画笔颜色
-//        StdDraw.setXscale(0,N); // 设置X轴
-//        StdDraw.setYscale(0,N*N); // 设置Y轴
-//        StdDraw.setPenRadius(.01); // 设置画笔粗细半径
-//        for (int i = 1; i <=N ; i++) {
-//            StdDraw.point(i,i);
-//            StdDraw.point(i,i*i);
-//            StdDraw.point(i,i*Math.log(i));
-//        }
+        StdDraw.setPenColor(StdDraw.BLUE); //设置画笔颜色
+        StdDraw.setXscale(0,N); // 设置X轴
+        StdDraw.setYscale(0,N*N); // 设置Y轴
+        StdDraw.setPenRadius(.01); // 设置画笔粗细半径
+        for (int i = 1; i <=N ; i++) {
+            StdDraw.point(i,i);
+            StdDraw.point(i,i*i);
+            StdDraw.point(i,i*Math.log(i));
+        }
         // emmm,为啥只能画一个图就进行不下去了
         // 随机数组
         N = 50;
